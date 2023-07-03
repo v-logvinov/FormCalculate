@@ -102,7 +102,8 @@ $dbh = new sdbh();
                                 } else {
                                     const invalidBlock = document.querySelector('.invalid-feedback');
                                     invalidBlock.innerHTML = res.error;
-                                    invalidBlock.style.display='block';
+                                    invalidBlock.style.display='block'.innerHTML ='';
+                                    document.getElementById('total-sum');
                                 }
                             })
                     })
